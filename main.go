@@ -11,6 +11,7 @@ func main() {
 	router.Run()
 }
 
+// Recipe New data model
 type Recipe struct {
 	Name        	string   	`json:"name"`
 	Tags        	[]string 	`json:"tags"`
